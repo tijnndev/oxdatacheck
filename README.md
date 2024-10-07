@@ -73,11 +73,11 @@ Only users with specific Ace permissions or the console can run these commands. 
 
 The script includes various configuration options to customize its behavior:
 
-- **Config.SteamRequired**:  
+- **Config.SteamRequired**:
   This setting enforces that players must be connected via Steam to interact with the server.  
   `true` means Steam is required, `false` allows non-Steam users.
 
-- **Config.WipeTables**:  
+- **Config.WipeTables**:
   A list of database tables that will be wiped when the `/wipe` command is used. This is a destructive action, so use it with caution.
   
 - **Config.ServerTables**:
